@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Website with Navbar</title>
+</head>
+<body>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#deals">Our Deals</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+<section id="home" style="background-image: url('hero.jpg');">
+  <div class="content">
+      <h1>Welcome to Our Platform</h1>
+      <h2>Your Ultimate Destination for Exclusive Deals</h2>
+      <p>
+          Discover incredible offers and unbeatable value right here. Whether you're looking for the latest products or 
+          unique services, we've got it all. Explore, save, and enjoy the benefits we bring to you.
+      </p>
+      <h2>Experience the Difference</h2>
+      <p>
+          Join thousands of satisfied customers who trust us for quality and reliability. Your journey to amazing deals 
+          and outstanding services starts here!
+      </p>
+      <button>Explore Our Deals</button>
+  </div>
+</section>
+
+
+<section id="deals">
+  <h2>Our Deals</h2>
+  <div class="deals-container">
+      <!-- Product Box 1 -->
+      <div class="product-box">
+          <img src="product1.jpg" alt="Product 1">
+          <h3>Irani Carpet</h3>
+          <p class="price">$29.99</p>
+          <button>Shop Now</button>
+      </div>
+
+      <!-- Product Box 2 -->
+      <div class="product-box">
+          <img src="product2.jpg" alt="Product 2">
+          <h3>Persian Carpet</h3>
+          <p class="price">$39.99</p>
+          <button>Shop Now</button>
+      </div>
+
+      <!-- Product Box 3 -->
+      <div class="product-box">
+          <img src="product3.jpg" alt="Product 3">
+          <h3>Arabic Carpet</h3>
+          <p class="price">$49.99</p>
+          <button>Shop Now</button>
+      </div>
+
+      <!-- Product Box 4 -->
+      <div class="product-box">
+          <img src="product4.jpg" alt="Product 4">
+          <h3>Italian Carpet</h3>
+          <p class="price">$59.99</p>
+          <button>Shop Now</button>
+      </div>
+
+      <!-- Product Box 5 -->
+      <div class="product-box">
+          <img src="product5.jpg" alt="Product 5">
+          <h3>German Carpet</h3>
+          <p class="price">$69.99</p>
+          <button>Shop Now</button>
+      </div>
+
+      <!-- Product Box 6 -->
+      <div class="product-box">
+          <img src="product6.jpg" alt="Product 6">
+          <h3>Afghani Carpet</h3>
+          <p class="price">$79.99</p>
+          <button>Shop Now</button>
+      </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about-container">
+      <h2>About Us</h2>
+      <p class="intro">
+          We’re dedicated to bringing you the best products at unbeatable prices. Our journey started with a simple idea: 
+          to make shopping more affordable and enjoyable for everyone.
+      </p>
+      
+      <div class="about-details">
+          <div class="about-box">
+              <h3>Our Mission</h3>
+              <p>
+                  To provide exceptional value to our customers by offering high-quality products and remarkable 
+                  service. We believe in making a positive impact with every transaction.
+              </p>
+          </div>
+
+          <div class="about-box">
+              <h3>Our Values</h3>
+              <p>
+                  Integrity, quality, and customer satisfaction drive us. We go above and beyond to ensure our customers 
+                  feel valued and trust us for all their shopping needs.
+              </p>
+          </div>
+
+          <div class="about-box">
+              <h3>Our Promise</h3>
+              <p>
+                  We promise to keep innovating and evolving, always putting our customers first. We aim to make 
+                  your experience with us seamless, rewarding, and enjoyable.
+              </p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-container">
+      <h2>Contact Us</h2>
+      <p class="intro">We’re here to help! Reach out to us for any inquiries, feedback, or assistance.</p>
+
+      <div class="contact-content">
+          <!-- Contact Information -->
+          <div class="contact-info">
+              <h3>Our Office</h3>
+              <p><strong>Address:</strong> 123 Main Street, City Name, Country</p>
+              <p><strong>Phone:</strong> +1 (234) 567-890</p>
+              <p><strong>Email:</strong> support@example.com</p>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form">
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
